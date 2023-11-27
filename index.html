@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Rashi+Hebrew:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top py-2 bg-dark" id="header">
+        <div class="container">
+            <div>
+                <img src="./assets/smalllogo.jpg" alt="logo do projeto" class="navbar-brand">
+            </div>
+            <button 
+                type="button" 
+                class="navbar-toggler btn-right" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#nav-menu"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-start" id="nav-menu">
+                <ul class="nav nav-pills d-block d-md-flex bg-dark text-center">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#espetaculos" class="nav-link">Espetáculos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#depoimentos" class="nav-link">Depoimentos</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a href="#" class="nav-link">Destaques</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div data-bs-spy="scroll" data-bs-target="header" data-bs-smooth-scroll="true">
+            <section id="home">
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item carousel-bkg1 active" data-bs-interval="2000">
+                            <div class="banner-title">
+                                <h1>
+                                    Projeto Jovem em Cena
+                                </h1>
+                                <p>
+                                    Projeto Voluntário de apresentações teatrais na <br>E.E. Prof Antonio José Leite
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-bkg2" data-bs-interval="2000">
+                            <div class="banner-title">
+                                <h1>
+                                    Projeto Jovem em Cena
+                                </h1>
+                                <p>
+                                    Projeto Voluntário de apresentações teatrais na <br>E.E. Prof Antonio José Leite
+                                </p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button data-bs-target="#carousel" class="active" data-bs-slide-to="0" type="button"></button>
+                            <button data-bs-target="#carousel" data-bs-slide-to="1" type="button"></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="about">
+                <div class="container-fluid about-container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-12 m-0 p-0">
+                            <video src="./assets/bgvid.mp4" class="object-fit-cover" autoplay loop></video>
+                        </div>
+                        <div class="col-md-7 col-sm-12 m-0 p-0">
+                            <div class="about-content p-5">
+                                <div>
+                                    <h2 class="text-center fw-bold text-uppercase">Quem Somos</h2>
+                                
+                                    <p>
+                                        O Projeto Jovem em Cena existe na E. E. Prof. Antonio José Leite há quinze anos. Trata-se de um Projeto voluntário de apresentações teatrais; criado e coordenado pela profª Denise Biella.
+                                    </p>
+                                    <p>
+                                        Sem subsídios públicos ou privados, o projeto depende de doações para a confecção de figurino e cenografia, e para a aquisição de materiais eletrônicos.
+                                    </p>
+                                    <p>
+                                        O objetivo principal do Projeto é trabalhar nos jovens a autoestima, a disciplina e a aquisição cultural por meio do teatro
+                                    </p>
+                                    <a href="#">
+                                        <button class="btn btn-about">Release Completo</button>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="espetaculos" class="espetaculos">
+                <div class="container p-2 bg-white espetaculos-bg">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-uppercase section-title">Espetáculos</h2>
+                        </div>
+                    </div><!-- row -->
+                    <div class="row">
+                        <div class="col">
+                            <div class="carousel slide carousel-desktop" id="carousel-espetaculos-desktop">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z000.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Irmão Urso
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho 2023
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Nesse espetáculo, o Jovem em Cena voltou 10.000 anos na História da...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z001.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Step Up
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2022
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Tyler Gage é um jovem que divide seu tempo entre festas e roubos de carro....
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z002.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Grease
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho, 2022
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Inspirado no musical <strong><i>Grease</i></strong> de 1971 e no filme...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z003.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Alladin
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2021
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Aladdin é um jovem que vive de pequenos roubos pelas ruas da cidade...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z004.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Maria
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Dezembro, 2020
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Maria é uma menina do interior. Graciosa e trabalhadeira, ela sabe cozinhar, tratar...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z005.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Corcunda de Notre Dame
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2019
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Na Paris de 1482, o juiz eclesiástico, Claude Frollo, persegue ferozmente o...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z006.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Mulan
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho, 2019
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            China Imperial. Os hunos invadem o território chinês e marcham rumo à capital do...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z007.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                10 anos 2 Edição
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2018
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            “Através de perigos indizíveis e inúmeras dificuldades, eu lutei para...”
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                    </div><!-- carousel-item -->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z008.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                10 anos 1 Edição
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2018
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Dez anos! Não dá pra não parar diante do peso dessa expressão e refletir sobre tudo...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z009.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Hamlet
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2017
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Séc. XIII. Hamlet, príncipe da Dinamarca, fica sabendo que a morte repentina de seu pai foi...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z010.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Danielle: para que serve a Utopia?
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho, 2017
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            França, século XVI. O viúvo Auguste de Barbarac, pai de Danielle, uma menina...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z011.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Yentl: nada é impossível
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2016
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Leste Europeu, início do séc. XX. Nessa época, ainda era proibido às...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z012.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                A Ópera do Fantasma
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho, 2016
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            <strong><i>O Fantasma da Ópera</i></strong> é um dos romances mais adaptados da história...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z013.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Muito prazer, eu existo
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2015
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Inclusão social... Apesar de política e absolutamente...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z014.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Cores do Vento
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Dezembro, 2015
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            O contato, na maioria das vezes tempestuoso, entre duas culturas...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-lg-3">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z015.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                AINDA Brazil?
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2014
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            No segundo semestre de 2013, o Jovem em Cena apresentou o espetáculo...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                    </div><!-- carousel-item -->
+                                    <button data-bs-target="#carousel-espetaculos-desktop" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button data-bs-target="#carousel-espetaculos-desktop" data-bs-slide="next" class="carousel-control-next" type="button">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                </div><!-- carousel-inner -->
+                            </div><!-- carousel -->
+                            <div class="carousel slide carousel-medium" id="carousel-espetaculos-medium">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z000.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Irmão Urso
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho 2023
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Nesse espetáculo, o Jovem em Cena voltou 10.000 anos na História da...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z001.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Step Up
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2022
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Tyler Gage é um jovem que divide seu tempo entre festas e roubos de carro....
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z002.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Grease
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho, 2022
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Inspirado no musical <strong><i>Grease</i></strong> de 1971 e no filme...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z003.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Alladin
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2021
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Aladdin é um jovem que vive de pequenos roubos pelas ruas da cidade...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z004.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Maria
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Dezembro, 2020
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Maria é uma menina do interior. Graciosa e trabalhadeira, ela sabe cozinhar, tratar...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z005.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Corcunda de Notre Dame
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2019
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Na Paris de 1482, o juiz eclesiástico, Claude Frollo, persegue ferozmente o...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                    </div><!-- carousel-item -->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z006.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Mulan
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho, 2019
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            China Imperial. Os hunos invadem o território chinês e marcham rumo à capital do...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z007.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                10 anos 2 Edição
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2018
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            “Através de perigos indizíveis e inúmeras dificuldades, eu lutei para...”
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z008.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                10 anos 1 Edição
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2018
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Dez anos! Não dá pra não parar diante do peso dessa expressão e refletir sobre tudo...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z009.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Hamlet
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2017
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Séc. XIII. Hamlet, príncipe da Dinamarca, fica sabendo que a morte repentina de seu pai foi...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z010.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Danielle: para que serve a Utopia?
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho, 2017
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            França, século XVI. O viúvo Auguste de Barbarac, pai de Danielle, uma menina...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z011.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Yentl: nada é impossível
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2016
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Leste Europeu, início do séc. XX. Nessa época, ainda era proibido às...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                    </div><!-- carousel-item -->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z012.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                A Ópera do Fantasma
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho, 2016
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            <strong><i>O Fantasma da Ópera</i></strong> é um dos romances mais adaptados da história...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z013.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Muito prazer, eu existo
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2015
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Inclusão social... Apesar de política e absolutamente...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z014.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Cores do Vento
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Dezembro, 2015
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            O contato, na maioria das vezes tempestuoso, entre duas culturas...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z015.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                AINDA Brazil?
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2014
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            No segundo semestre de 2013, o Jovem em Cena apresentou o espetáculo...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                    </div><!-- carousel-item -->
+                                    <button data-bs-target="#carousel-espetaculos-medium" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button data-bs-target="#carousel-espetaculos-medium" data-bs-slide="next" class="carousel-control-next" type="button">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                </div><!-- carousel-inner -->
+                            </div><!-- carousel -->
+                            <div class="carousel slide carousel-mobile" id="carousel-espetaculos-mobile">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z000.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Irmão Urso
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho 2023
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Nesse espetáculo, o Jovem em Cena voltou 10.000 anos na História da...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                    </div><!-- carousel-item -->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z001.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Step Up
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2022
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Tyler Gage é um jovem que divide seu tempo entre festas e roubos de carro....
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div><!-- row -->
+                                    </div><!-- carousel-item -->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z002.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Grease
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho, 2022
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Inspirado no musical <strong><i>Grease</i></strong> de 1971 e no filme...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>        
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z003.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Alladin
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2021
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Aladdin é um jovem que vive de pequenos roubos pelas ruas da cidade...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z004.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Maria
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Dezembro, 2020
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Maria é uma menina do interior. Graciosa e trabalhadeira, ela sabe cozinhar, tratar...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>        
+                                    <div class="carousel-item">
+                                        <div class="col-sm-12">
+                                            <div class="card p-2">
+                                                <div class="image-container-card">
+                                                    <img src="./assets/cards/z005.webp" alt="image" class="rounded">
+                                                </div>
+                                                <div class="card-body">
+                                                    <div class="card-title-container">
+                                                        <h4 class="card-title card-title-h">
+                                                            Corcunda de Notre Dame
+                                                        </h4>
+                                                        <h5 class="card-title card-resume-p">
+                                                            Novembro, 2019
+                                                        </h5>
+                                                    </div>
+                                                    <p class="card-text">
+                                                        Na Paris de 1482, o juiz eclesiástico, Claude Frollo, persegue ferozmente o...
+                                                    </p>
+                                                    <a href="#" class="link-dark ">Ler mais</a>
+                                                    <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                </div><!-- card-body -->
+                                            </div><!-- card -->
+                                        </div><!-- col -->
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z006.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Mulan
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho, 2019
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            China Imperial. Os hunos invadem o território chinês e marcham rumo à capital do...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z007.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                10 anos 2 Edição
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2018
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            “Através de perigos indizíveis e inúmeras dificuldades, eu lutei para...”
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z008.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                10 anos 1 Edição
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2018
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Dez anos! Não dá pra não parar diante do peso dessa expressão e refletir sobre tudo...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>        
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z009.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Hamlet
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2017
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Séc. XIII. Hamlet, príncipe da Dinamarca, fica sabendo que a morte repentina de seu pai foi...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>        
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z010.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Danielle: para que serve a Utopia?
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho, 2017
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            França, século XVI. O viúvo Auguste de Barbarac, pai de Danielle, uma menina...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div>    
+                                    </div>        
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z011.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Yentl: nada é impossível
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2016
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Leste Europeu, início do séc. XX. Nessa época, ainda era proibido às...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>        
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z012.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                A Ópera do Fantasma
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Junho, 2016
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            <strong><i>O Fantasma da Ópera</i></strong> é um dos romances mais adaptados da história...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z013.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Muito prazer, eu existo
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2015
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Inclusão social... Apesar de política e absolutamente...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z014.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                Cores do Vento
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Dezembro, 2015
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            O contato, na maioria das vezes tempestuoso, entre duas culturas...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="card p-2">
+                                                    <div class="image-container-card">
+                                                        <img src="./assets/cards/z015.webp" alt="image" class="rounded">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="card-title-container">
+                                                            <h4 class="card-title card-title-h">
+                                                                AINDA Brazil?
+                                                            </h4>
+                                                            <h5 class="card-title card-resume-p">
+                                                                Novembro, 2014
+                                                            </h5>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            No segundo semestre de 2013, o Jovem em Cena apresentou o espetáculo...
+                                                        </p>
+                                                        <a href="#" class="link-dark ">Ler mais</a>
+                                                        <a href="#" class="btn btn-card w-100">Saiba Mais!</a>
+                                                    </div><!-- card-body -->
+                                                </div><!-- card -->
+                                            </div><!-- col -->
+                                        </div>
+                                    </div>
+                                    <button data-bs-target="#carousel-espetaculos-mobile" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button data-bs-target="#carousel-espetaculos-mobile" data-bs-slide="next" class="carousel-control-next" type="button">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                </div><!-- carousel-inner -->
+                            </div><!-- carousel -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="depoimentos" id="depoimentos">
+                <div class="container comment-section-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-uppercase section-title">Depoimentos</h2>
+                        </div>
+                        <div class="col-12">
+                            <div class="carousel slide carousel-comments" id="carousel-comments">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-12 comment-card">
+                                                <div class="card card-comment">
+                                                    <div class="photo-comment"></div>
+                                                    <div class="comment-content-container">
+                                                        <div class="comment-content">
+                                                            <div class="comment-title">
+                                                                <h3>
+                                                                    Nome Fictício
+                                                                </h3>
+                                                                <h5>
+                                                                    Integrante desde 2011
+                                                                </h5>
+                                                            </div>
+                                                            <p>
+                                                                Em 2011, tudo começou. Eu era uma menina apaixonada pela dança, acreditando que aquele seria o espaço perfeito para mostrar quem eu era e talvez alcançar algo que parecia impossível. Com o ego típico de uma adolescente, eu cresci e aos poucos percebi que aquilo não era exatamente o que eu imaginava. Era muito mais do que isso, além das aparências e do status. Descobri que a futilidade não me levaria a lugar nenhum.
+                                                            </p>
+                                                        </div>
+                                                        <button class="link-dark btn w-100 btn-comment text-white">Ler mais</button>
+                                                    </div>  
+                                                </div>
+                                            </div><!-- col-6 comment card -->
+                                            <div class="col-lg-6 col-md-12 comment-card">
+                                                <div class="card card-comment">
+                                                    <div class="photo-comment"></div>
+                                                    <div class="comment-content-container">
+                                                        <div class="comment-content">
+                                                            <div class="comment-title">
+                                                                <h3>
+                                                                    Nome Fictício
+                                                                </h3>
+                                                                <h5>
+                                                                    Integrante desde 2011
+                                                                </h5>
+                                                            </div>
+                                                            <p>
+                                                                Em 2011, tudo começou. Eu era uma menina apaixonada pela dança, acreditando que aquele seria o espaço perfeito para mostrar quem eu era e talvez alcançar algo que parecia impossível. Com o ego típico de uma adolescente, eu cresci e aos poucos percebi que aquilo não era exatamente o que eu imaginava. Era muito mais do que isso, além das aparências e do status. Descobri que a futilidade não me levaria a lugar nenhum.
+                                                            </p>
+                                                        </div>
+                                                        <button class="link-dark btn w-100 btn-comment text-white">Ler mais</button>
+                                                    </div>  
+                                                </div>
+                                            </div><!-- col-6 comment card -->
+                                        </div><!-- row -->
+                                    </div><!-- carousel-item -->
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-12 comment-card">
+                                                <div class="card card-comment">
+                                                    <div class="photo-comment"></div>
+                                                    <div class="comment-content-container">
+                                                        <div class="comment-content">
+                                                            <div class="comment-title">
+                                                                <h3>
+                                                                    Nome Fictício
+                                                                </h3>
+                                                                <h5>
+                                                                    Integrante desde 2011
+                                                                </h5>
+                                                            </div>
+                                                            <p>
+                                                                Em 2011, tudo começou. Eu era uma menina apaixonada pela dança, acreditando que aquele seria o espaço perfeito para mostrar quem eu era e talvez alcançar algo que parecia impossível. Com o ego típico de uma adolescente, eu cresci e aos poucos percebi que aquilo não era exatamente o que eu imaginava. Era muito mais do que isso, além das aparências e do status. Descobri que a futilidade não me levaria a lugar nenhum.
+                                                            </p>
+                                                        </div>
+                                                        <button class="link-dark btn w-100 btn-comment text-white">Ler mais</button>
+                                                    </div>  
+                                                </div>
+                                            </div><!-- col-6 comment card -->
+                                            <div class="col-lg-6 col-md-12 comment-card">
+                                                <div class="card card-comment">
+                                                    <div class="photo-comment"></div>
+                                                    <div class="comment-content-container">
+                                                        <div class="comment-content">
+                                                            <div class="comment-title">
+                                                                <h3>
+                                                                    Nome Fictício
+                                                                </h3>
+                                                                <h5>
+                                                                    Integrante desde 2011
+                                                                </h5>
+                                                            </div>
+                                                            <p>
+                                                                Em 2011, tudo começou. Eu era uma menina apaixonada pela dança, acreditando que aquele seria o espaço perfeito para mostrar quem eu era e talvez alcançar algo que parecia impossível. Com o ego típico de uma adolescente, eu cresci e aos poucos percebi que aquilo não era exatamente o que eu imaginava. Era muito mais do que isso, além das aparências e do status. Descobri que a futilidade não me levaria a lugar nenhum.
+                                                            </p>
+                                                        </div>
+                                                        <button class="link-dark btn w-100 btn-comment text-white">Ler mais</button>
+                                                    </div>  
+                                                </div>
+                                            </div><!-- col-6 comment card -->
+                                        </div><!-- row -->
+                                    </div><!-- carousel-item -->
+                                </div><!-- carousel-inner -->
+                                <button data-bs-target="#carousel-comments" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                                    <span class="carousel-control-prev-icon bg-dark"></span>
+                                </button>
+                                <button data-bs-target="#carousel-comments" data-bs-slide="next" class="carousel-control-next" type="button">
+                                    <span class="carousel-control-next-icon bg-dark"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contato" id="contact">
+                <div class="container p-2">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-uppercase section-title">Contato</h2>
+                        </div>
+                        <div class="col-md-7 col-sm-12">
+                            <h2>Envie-nos uma mensage!</h2>
+                            <form class="form">
+                                <label for="nome">Seu nome:</label>
+                                <input class="form-control" type="text" id="nome">
+                                <label for="email">Seu e-mail:</label>
+                                <input class="form-control" type="email" id="email">
+                                <label for="mensagem">Escreva sua mensagem abaixo:</label>
+                                <textarea class="form-control" id="mensagem" required>Escreva aqui</textarea>
+                            </form>
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <div class="row">
+                                <h3 class="section-title fs-5 redes-sociais-title">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes Sociais
+                                </h3>
+                                <ul class="social-links text-center">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook"></i>
+    
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 me-1 ms-1">
+                                        <a href="#">
+                                            <i class="bi bi-instagram"></i>
+                                            
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp"></i>
+                                            
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="p-3 blockquote-footer bg-dark m-0">
+                Todos os direitos reservados
+            </footer>
+        </div>
+    </main>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
